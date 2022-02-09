@@ -23,6 +23,7 @@
 	</h1>
 
 	<h2>
+		カウンター
 		try editing <strong>src/routes/index.svelte</strong>
 	</h2>
 
