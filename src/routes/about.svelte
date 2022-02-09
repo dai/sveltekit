@@ -36,8 +36,8 @@
 	</p>
 
 	<p>
-		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
+		<a href="/todos">TODO</a> はSveltekitデフォルト。
+		JavaScript オフでも稼働します!
 	</p>
 </div>
 

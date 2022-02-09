@@ -38,11 +38,11 @@
 </script>
 
 <svelte:head>
-	<title>Todos</title>
+	<title>Todo</title>
 </svelte:head>
 
 <div class="todos">
-	<h1>Todos</h1>
+	<h1>Todo</h1>
 
 	<form
 		class="new"
