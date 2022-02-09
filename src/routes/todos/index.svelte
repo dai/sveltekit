@@ -57,7 +57,7 @@
 			}
 		}}
 	>
-		<input name="text" aria-label="Add todo" placeholder="+ tap to add a todo" />
+		<input name="text" aria-label="自由に" placeholder="+ 追加" />
 	</form>
 
 	{#each todos as todo (todo.uid)}
@@ -78,7 +78,7 @@
 				}}
 			>
 				<input type="hidden" name="done" value={todo.done ? '' : 'true'} />
-				<button class="toggle" aria-label="Mark todo as {todo.done ? 'not done' : 'done'}" />
+				<button class="toggle" aria-label="完了？ {todo.done ? 'not done' : 'done'}" />
 			</form>
 
 			<form
@@ -89,8 +89,8 @@
 					result: patch
 				}}
 			>
-				<input aria-label="Edit todo" type="text" name="text" value={todo.text} />
-				<button class="save" aria-label="Save todo" />
+				<input aria-label="編集" type="text" name="text" value={todo.text} />
+				<button class="save" aria-label="保存" />
 			</form>
 
 			<form
@@ -103,7 +103,7 @@
 					}
 				}}
 			>
-				<button class="delete" aria-label="Delete todo" disabled={todo.pending_delete} />
+				<button class="delete" aria-label="削除" disabled={todo.pending_delete} />
 			</form>
 		</div>
 	{/each}

@@ -18,11 +18,11 @@
 			</picture>
 		</div>
 
-		<br />SvelteKit app<br />でつくったよ
+		<br />SvelteKit app<br />で作成
 	</h1>
 
 	<h2>
-		カウンター
+		ただのカウンター
 	</h2>
 
 	<Counter />
@@ -45,7 +45,7 @@
 		position: relative;
 		width: 100%;
 		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
+		padding: 0 0 calc(100% * 980 / 2048) 0;
 	}
 
 	.welcome img {
